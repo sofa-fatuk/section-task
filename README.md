@@ -1,6 +1,7 @@
 # sections
 
 To install bun
+
 ```bash
 curl -fsSL https://bun.sh/install | bash
 ```
@@ -21,6 +22,12 @@ To dev:
 
 ```bash
 bun --watch index.ts
+```
+
+To test:
+
+```bash
+bun test
 ```
 
 This project was created using `bun init` in bun v1.0.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
